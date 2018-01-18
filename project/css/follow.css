@@ -1,0 +1,70 @@
+#content{
+	width: 100%;
+}
+.head{
+	width: 100%;
+	height: 39px;
+	line-height: 100%;
+	left: 0;  
+	position: fixed;  
+	top: 0; 
+	border-bottom:1px solid #000000;
+	background-color: #fff;
+	z-index:90;
+}
+.head-con{
+	height: 100%;
+	align-items:center;
+	display:-webkit-flex;
+	margin: auto 15px;
+}
+.head-pic{
+	width: 10%;
+	float: left;
+}
+.head-word{
+	margin: 0 auto;
+	font-size: 20px;
+	text-align: center;
+}
+.head-con a{
+}
+.main{
+	margin-top:40px;
+	width: 100%;
+}
+.main-con{
+	width: 100%;
+	height:100px;
+	max-height:10% !important;
+	border-bottom: 1px solid #D1D1D1 ;
+}
+.main-left{
+	padding:2px 3%;
+	width: 40%;
+	float: left;
+}
+.main-left img{
+	width: 100%;
+	height: 95px;
+}
+.main-right{
+	float: left;
+}
+.main-right-name{
+	padding-top: 5px;
+	font-size: 20px;
+}
+.main-right-authentication{
+	padding-top: 5px;
+	font-size: 15px;
+	color: red;
+}
+.main-right-start{
+	padding-top: 5px;
+  	color: yellow;
+}
+.glyphicon-record{
+	float: right;
+	margin-right: 5px;
+}

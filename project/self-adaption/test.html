@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<!-- 引入bootstrap -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<!-- 引入css -->
+	<link rel="stylesheet" href="./css/index.css">
+<title>下拉查询筛选插件Combo Select - 分组 - 站长素材</title>
+<link rel="stylesheet" href="css/combo.select.css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.combo.select.js"></script>
+</head>
+
+<body>
+<div class="content">
+	<div class="header">
+<div class="zzsc" >
+	<select class="option">
+		<option value="">城市</option>
+
+		<optgroup label="广东省">
+			<option value="深圳">深圳</option>
+			<option value="广州">广州</option>
+			<option value="珠海">珠海</option>
+			<option value="惠州">惠州</option>
+		</optgroup>
+
+		<optgroup label="湖南省">
+			<option value="长沙">长沙</option>
+			<option value="株洲">株洲</option>
+			<option value="岳阳">岳阳</option>
+			<option value="张家界">张家界</option>
+		</optgroup>
+
+		<optgroup label="江西省">
+			<option value="南昌">南昌</option>
+			<option value="赣州">赣州</option>
+			<option value="宜春">宜春</option>
+			<option value="九江">九江</option>
+		</optgroup>
+	</select>
+</div>
+<!-- 标题 -->
+		<span class="title">快乐兼职</span>
+		<!-- 标题旁边的头像 -->
+		<a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+</div>
+<div  class="header-photo" >
+
+<!--轮播-->
+<div id="myCarousel" class="carousel slide">
+  <!-- 轮播（Carousel）指标 -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>   
+  <!-- 轮播（Carousel）项目 -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="img/fengjing.jpg" alt="First slide">
+    </div>
+    <div class="item">
+      <img src="img/pugongying.jpg" alt="Second slide">
+    </div>
+    <div class="item">
+      <img src="img/guidao.jpg" alt="Third slide">
+    </div>
+  </div>
+  <!-- 轮播（Carousel）导航 -->
+  <a class="carousel-control left" href="#myCarousel" 
+     data-slide="prev"></a>
+  <a class="carousel-control right" href="#myCarousel" 
+     data-slide="next"></a>
+</div> 
+</div>
+<!--轮播-->
+
+<!-- 中间部分 -->
+	<div class="main">
+		<div>
+		<div class="renzheng">
+			<a id="link1" href="#">认证兼职</a>
+			         <div class="small"> <span class="glyphicon glyphicon-shopping-cart"></span></div>
+
+
+		</div>
+		<div class="danbao">
+			<a id="link2" href="#">担保兼职</a>
+			   <div class="small"><span class="glyphicon glyphicon-gift"></span></div> 
+		</div>
+		</div>
+		<div class="rijie">
+			<a id="link3" href="#">工资日结</a>
+		    <div class="small"><span class="glyphicon glyphicon-send"></span></div>
+		</div>
+		<div class="zhaopin">
+			<a id="link4"href="#">名企招聘</a>
+			    <div class="small"><span class="glyphicon glyphicon-shopping-cart"></span></div>
+		</div>
+		</div>
+<!-- 中间的照片 -->
+<div >
+	<img id="main-photo" src="./img/pugongying.jpg" alt="">
+	</div>
+<!-- 列表开始 -->
+	<div class="liebiao">
+		 
+<div class="list-group">
+    <a href="#" class="list-group-item">
+    <img src="./img/qingxin.jpg" alt="..." class="img-circle">
+
+        <div class="list-word"><h4 class="list-group-item-heading">
+            全福原清洁工
+        </h4></div>
+        <p class="list-group-item-text">
+           <span class="glyphicon glyphicon-cog"></span> 东城<span class="glyphicon glyphicon-chevron-right "></span>20Km&nqsp5月12日-5月31日
+        </p>
+        <p class="list-group-item-text">
+        三小时前
+        </p>
+    </a>
+    <a href="#" class="list-group-item">
+    <img src="./img/qingxin.jpg" alt="..." class="img-circle">
+
+			
+        <div class="list-word"><h4 class="list-group-item-heading">
+            全福原清洁工
+        </h4></div>
+        <p class="list-group-item-text">
+           <span class="glyphicon glyphicon-cog"></span> 东城<span class="glyphicon glyphicon-chevron-right "></span>20Km&nqsp5月12日-5月31日
+        </p>
+        <p class="list-group-item-text">
+        三小时前
+        </p>
+    </a>
+   <a href="#" class="list-group-item">
+    <img src="./img/qingxin.jpg" alt="..." class="img-circle">
+
+
+
+       <div class="list-word"><h4 class="list-group-item-heading">
+            全福原清洁工
+        </h4></div>
+        <p class="list-group-item-text">
+           <span class="glyphicon glyphicon-cog"></span> 东城<span class="glyphicon glyphicon-chevron-right "></span>20Km&nqsp5月12日-5月31日
+        </p>
+        <p class="list-group-item-text">
+        三小时前
+        </p>
+    </a>
+</div>
+</div>
+<!-- 列表结束 -->
+<!-- 尾部开始 -->
+	<div class="foot">
+		<span class="foot-word">快乐兼职网<br>
+		<a  id="link5" href="#">www.kuailejianzhi.cn</a></span>
+		<br>是靠谱的大学生兼职平台
+
+	</div>
+<!-- 尾部结束 -->
+</div>
+</body>
+</html>
+<script>
+$(function() {
+	$('select').comboSelect()
+});
+</script>
+<script>
+$(function(){
+        // 初始化轮播
+        $(".start-slide").click(function(){
+            $("#myCarousel").carousel('cycle');
+        });
+        // 停止轮播
+        $(".pause-slide").click(function(){
+            $("#myCarousel").carousel('pause');
+        });
+        // 循环轮播到上一个项目
+        $(".prev-slide").click(function(){
+            $("#myCarousel").carousel('prev');
+        });
+        // 循环轮播到下一个项目
+        $(".next-slide").click(function(){
+            $("#myCarousel").carousel('next');
+  });
+        // 循环轮播到某个特定的帧 
+        $(".slide-one").click(function(){
+            $("#myCarousel").carousel(0);
+        });
+        $(".slide-two").click(function(){
+            $("#myCarousel").carousel(1);
+        });
+        $(".slide-three").click(function(){
+            $("#myCarousel").carousel(2);
+        });
+    });
+</script>
